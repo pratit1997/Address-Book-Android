@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "537726216378",
+    "firebase_url": "https://chat-ba396-default-rtdb.firebaseio.com",
+    "project_id": "chat-ba396",
+    "storage_bucket": "chat-ba396.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537726216378:android:3959b3de46b0ca7f433a83",
+        "android_client_info": {
+          "package_name": "com.codingwithpratit.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537726216378-f6jli318m59uoeukotgtavtk05cu1q1p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFbcFG6VF-ce4cUnhP1lyIH4zr6cp3qwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537726216378-f6jli318m59uoeukotgtavtk05cu1q1p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537726216378:android:3854081b0f3b415e433a83",
+        "android_client_info": {
+          "package_name": "com.example.address_book_v_10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537726216378-f6jli318m59uoeukotgtavtk05cu1q1p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFbcFG6VF-ce4cUnhP1lyIH4zr6cp3qwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537726216378-f6jli318m59uoeukotgtavtk05cu1q1p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537726216378:android:eb152bb5aa9d0af1433a83",
+        "android_client_info": {
+          "package_name": "com.example.rentals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537726216378-f6jli318m59uoeukotgtavtk05cu1q1p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFbcFG6VF-ce4cUnhP1lyIH4zr6cp3qwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537726216378-f6jli318m59uoeukotgtavtk05cu1q1p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+
+        android:background="#272670">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Address-book"
+            android:textColor="#ffffff"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"/>
+
+    <ImageView
+        android:layout_width="187dp"
+        android:layout_height="156dp"
+        android:layout_gravity="center"
+        android:src="@drawable/account" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Email">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="365dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="#ffffff"
+            app:endIconMode="password_toggle" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="344dp"
+        android:layout_marginTop="15dp"
+        android:hint="Password"
+        app:endIconMode="password_toggle">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="363dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="#ffffff"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#272670"
+            android:singleLine="true"
+            android:text="Login"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/create"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:text="Create Account"
+            android:textAllCaps="false"
+            android:textColor="#272670"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/forgotpass"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            android:text="Forgot Password?"
+            android:textAllCaps="false"
+            android:textColor="#272670"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="submit_post" type="id" />
+    <item name="add_phone" type="id" />
+    <item name="add_p" type="id" />
+    <item name="add_email" type="id" />
+    <item name="add_l" type="id" />
+    <item name="add_lname" type="id" />
+    <item name="add_a" type="id" />
+    <item name="add_fname" type="id" />
+    <item name="add_c" type="id" />
+    <item name="add_image" type="id" />
+    <item name="a_delete" type="id" />
+    <item name="Update_post" type="id" />
+</resources>
